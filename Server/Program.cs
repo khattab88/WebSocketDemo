@@ -13,6 +13,7 @@ namespace Server
 
             app.MapGet("/", () => "Hello World!");
 
+
             var wsOptions = new WebSocketOptions 
             {
                 KeepAliveInterval = TimeSpan.FromSeconds(120),
